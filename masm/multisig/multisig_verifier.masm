@@ -28,7 +28,7 @@ export.verify_multisig_signatures
     drop drop drop
     # => [number_of_pubkeys]
     
-    # Store number of signatures to check
+    # Store the number of signatures to check
     mem_store.LOOP_ITER
     # => []
     
