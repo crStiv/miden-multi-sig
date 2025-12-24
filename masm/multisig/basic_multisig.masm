@@ -15,7 +15,7 @@ const.PUBLIC_NOTE=1
 #!
 #! Panics if:
 #! - the same non-fungible asset already exists in the account.
-#! - adding a fungible asset would result in amount overflow, i.e.,
+#! - adding a fungible asset would result in an amount overflow, i.e.,
 #!   the total amount would be greater than 2^63.
 #!
 #! Invocation: call
@@ -101,7 +101,7 @@ end
 #! Outputs: [balance]
 #!
 #! Where:
-#! - faucet_id is the faucet id of the fungible asset of interest.
+#! - faucet_id is the faucet ID of the fungible asset of interest.
 #! - balance is the balance of the fungible asset.
 export.get_balance
     # Verify multisig signatures first
